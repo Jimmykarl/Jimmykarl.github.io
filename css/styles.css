@@ -48,4 +48,5 @@ ul.posts li {
 }
 .maincontent {
     width: 50%
+    border-right: 1px;
 }
