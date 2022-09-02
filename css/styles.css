@@ -49,4 +49,5 @@ ul.posts li {
 .maincontent {
     width: 65%;
     border-right: 2px solid rgba(0, 0, 0, .5);
+    margin-right: 5px;
 }
