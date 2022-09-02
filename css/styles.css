@@ -60,6 +60,7 @@ ul.posts li {
     float: right;
     width: 10%;
     text-align: center;
+    line-height: 1.6;
 }
 img {
     border-radius: 10px;
