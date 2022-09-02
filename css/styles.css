@@ -45,10 +45,6 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.pagediv {
-    margin-right: 20%;
-    margin-left: 20%;
-}
 .maincontent {
     float: left;
     width: 60%;
@@ -58,7 +54,7 @@ ul.posts li {
 }
 .contact {
     float: right;
-    width: 15%;
+    width: 20%;
     text-align: center;
     line-height: 1.6;
     padding-left: 0px;
