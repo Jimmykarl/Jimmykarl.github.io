@@ -54,7 +54,7 @@ ul.posts li {
 .maincontent::after {
   content: "";
   clear: both;
-  display: initial;
+  display: table;
 }
 .contact {
     float: right;
