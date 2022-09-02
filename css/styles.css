@@ -31,6 +31,7 @@ p {
     line-height: 1.4em;
     color: #333;
     text-align: justify;
+    padding-bottom: 25px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
