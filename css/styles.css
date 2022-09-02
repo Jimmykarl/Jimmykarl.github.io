@@ -61,6 +61,7 @@ ul.posts li {
     width: 15%;
     text-align: center;
     line-height: 1.6;
+    padding-left: -10px;
 }
 img {
     border-radius: 10px;
