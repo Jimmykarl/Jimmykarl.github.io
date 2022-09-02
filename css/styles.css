@@ -45,3 +45,16 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.contentgrid {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.contactgrid {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
