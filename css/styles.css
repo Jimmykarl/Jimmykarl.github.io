@@ -46,6 +46,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.pagediv {
+    margin-right: 20%;
+    margin-left: 20%;
+}
 .maincontent {
     float: left;
     width: 50%;
