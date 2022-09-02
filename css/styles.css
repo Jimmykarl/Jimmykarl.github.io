@@ -55,3 +55,6 @@ ul.posts li {
     float: right;
     width: 15%;
 }
+img {
+  border-radius: 8px;
+}
