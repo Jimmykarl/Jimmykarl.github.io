@@ -47,6 +47,6 @@ ul.posts li {
     list-style: none;
 }
 .maincontent {
-    width: 50%;
-    border-right: 2px solid Grey;
+    width: 65%;
+    border-right: 2px solid rgba(0, 0, 0, .5);
 }
