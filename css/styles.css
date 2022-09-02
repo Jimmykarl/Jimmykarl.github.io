@@ -47,7 +47,7 @@ ul.posts li {
     list-style: none;
 }
 .maincontent {
-    width: 55%;
+    width: 50%;
     border-right: 1px solid rgba(0, 0, 0, .1);
     padding-right: 25px;
 }
@@ -56,5 +56,5 @@ ul.posts li {
     width: 15%;
 }
 img {
-  border-radius: 8px;
+  border-radius: 10px;
 }
