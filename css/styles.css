@@ -30,7 +30,6 @@ p {
     font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
-    text-align: justify;
     padding-bottom: 25px;
 }
 footer {
@@ -55,10 +54,12 @@ ul.posts li {
     width: 50%;
     border-right: 1px solid rgba(0, 0, 0, .1);
     padding-right: 25px;
+    text-align: justify;
 }
 .contact {
     float: right;
     width: 15%;
+    text-align: center;
 }
 img {
   border-radius: 10px;
