@@ -48,7 +48,7 @@ ul.posts li {
 .maincontent {
     float: left;
     width: 60%;
-    border-right: 1px solid rgba(0, 0, 0, .1);
+    /* border-right: 1px solid rgba(0, 0, 0, .1); */
     padding-right: 25px;
     text-align: justify;
     overflow-y: scroll;
@@ -59,6 +59,7 @@ ul.posts li {
     text-align: center;
     line-height: 2em;
     padding-left: 0px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 img {
     border-radius: 10px;
