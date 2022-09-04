@@ -52,6 +52,7 @@ ul.posts li {
     padding-right: 25px;
     text-align: justify;
     overflow-y: scroll;
+    font-family:'Baskerville', 'Arial', 'Sans-Serif';
 }
 .contact {
     float: right;
@@ -59,7 +60,7 @@ ul.posts li {
     text-align: center;
     line-height: 2em;
     padding-left: 0px;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Baskerville', 'Arial', 'Sans-Serif';
 }
 img {
     border-radius: 10px;
