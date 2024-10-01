@@ -159,6 +159,15 @@ nav ul li a:hover {
     margin-bottom: 14px; /* Space between list items */
 }
 
+.home-icon {
+    display: none; /* Hide home icon by default */
+}
+
+.home-icon a {
+    font-size: 1.5em; /* Increase size of the icon */
+    color: #333; /* Adjust color to match the theme */
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
@@ -171,6 +180,10 @@ nav ul li a:hover {
 
     h1 {
         font-size: 2.2em;
+    }
+    
+    .home-icon {
+        display: block; /* Shows the home icon on small screens */
     }
 }
 
@@ -195,6 +208,10 @@ nav ul li a:hover {
 
     h2 {
         font-size: 1.8em;
+    }
+
+    .home-icon {
+        display: block; /* Shows the home icon on small screens */
     }
 }
 
