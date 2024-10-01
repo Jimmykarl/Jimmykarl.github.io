@@ -156,6 +156,16 @@ nav ul li a:hover {
     margin-bottom: 15px; /* Space between list items */
 }
 
+.home-icon {
+    display: none; /* Hide home icon by default */
+}
+
+/* Styling for the home icon */
+.home-icon a {
+    font-size: 1.5em; /* Increase size of the icon */
+    color: #333; /* Adjust color to match the theme */
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
@@ -198,6 +208,11 @@ nav ul li a:hover {
 @media (max-width: 480px) {
     .name-home {
         display: none;  /* Hide name as Home button on mobile */
+    }
+
+    .home-icon {
+        display: block;  /* House button */
+        margin-top: 10%;
     }
 
     h1 {
