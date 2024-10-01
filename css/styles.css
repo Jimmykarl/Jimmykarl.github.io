@@ -161,6 +161,7 @@ nav ul li a:hover {
 
 .home-icon {
     display: none; /* Hide home icon by default */
+    margin-top: 10px;
 }
 
 .home-icon a {
@@ -180,10 +181,6 @@ nav ul li a:hover {
 
     h1 {
         font-size: 2.2em;
-    }
-    
-    .home-icon {
-        display: block; /* Shows the home icon on small screens */
     }
 }
 
@@ -209,15 +206,16 @@ nav ul li a:hover {
     h2 {
         font-size: 1.8em;
     }
-
-    .home-icon {
-        display: block; /* Shows the home icon on small screens */
-    }
 }
 
 @media (max-width: 480px) {
     .name-home {
         display: none;  /* Hide name as Home button on mobile */
+    }
+
+    .home-icon {
+        display: block; /* Shows the home icon on small screens */
+        margin-top: 20px; /* Adjust the margin for the desired distance */
     }
 
     h1 {
