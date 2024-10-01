@@ -57,8 +57,6 @@ nav {
 nav ul {
     padding: 0;
     list-style: none;
-    justify-content: space-between;
-    align-items: center; /* Center vertically
 }
 
 nav ul li {
@@ -146,27 +144,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.teaching-list {
-    list-style-type: none; /* Remove default bullet points */
-    padding: 0; /* Remove default padding */
-    font-size: 1.1em; /* Slightly increase font size for readability */
-    margin: 20px 0; /* Add some margin above and below the list */
-}
-
-.teaching-list li {
-    margin-bottom: 14px; /* Space between list items */
-}
-
-.home-icon {
-    display: none; /* Hide home icon by default */
-    margin-top: 10px;
-}
-
-.home-icon a {
-    font-size: 1.5em; /* Increase size of the icon */
-    color: #333; /* Adjust color to match the theme */
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
@@ -209,11 +186,6 @@ nav ul li a:hover {
 @media (max-width: 480px) {
     .name-home {
         display: none;  /* Hide name as Home button on mobile */
-    }
-
-    .home-icon {
-        display: block; /* Shows the home icon on small screens */
-        margin-top: 20px; /* Adjust the margin for the desired distance */
     }
 
     h1 {
