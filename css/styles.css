@@ -144,6 +144,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.teaching-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    font-size: 1.1em; /* Slightly increase font size for readability */
+    margin: 20px 0; /* Add some margin above and below the list */
+}
+
+.teaching-list li {
+    margin-bottom: 15px; /* Space between list items */
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
