@@ -79,6 +79,9 @@ nav ul li a:hover {
 }
 
 /* Name as Home Button */
+.name-home {
+    margin-right: auto; /* Pushes the other items to the center */
+}
 .name-home a {
     font-family: 'Merriweather', serif;
     font-size: 1.8em;
