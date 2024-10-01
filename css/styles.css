@@ -52,13 +52,13 @@ nav {
     border-bottom: 1px solid #ddd;
     padding: 15px 0;
     text-align: center;
-    display: flex;
 }
 
 nav ul {
     padding: 0;
     list-style: none;
-    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically
 }
 
 nav ul li {
@@ -81,16 +81,12 @@ nav ul li a:hover {
 }
 
 /* Name as Home Button */
-.name-home {
-    margin-right: auto; /* Pushes the other items to the center */
-}
 .name-home a {
     font-family: 'Merriweather', serif;
     font-size: 1.8em;
     color: #333;
     font-weight: 700;
     text-decoration: none;
-    text-align: left;
 }
 
 .name-home a:hover {
