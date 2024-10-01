@@ -43,6 +43,7 @@ p {
     font-weight: 300;
     margin-top: -10px;
     font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 /* Navigation Styling */
@@ -77,19 +78,18 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* CV Button */
-.cv-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+/* Name as Home Button */
+.name-home a {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8em;
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-.cv-button:hover {
-    background-color: #0056b3;
-    color: white;
+.name-home a:hover {
+    background-color: transparent;
+    color: #007bff;
 }
 
 /* Main Content and Columns */
@@ -116,17 +116,18 @@ nav ul li a:hover {
     width: 100%;
     max-width: 250px;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 
 .personal-info {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .contact {
     text-align: center;
     font-size: 1.1em;
+    margin-top: 10px;
 }
 
 .contact a {
@@ -143,30 +144,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Toggle and Hidden Text */
-.toggle-button {
-    cursor: pointer;
-    color: #007bff;
-    font-weight: bold;
-}
-
-.arrow {
-    transition: transform 0.3s ease;
-    display: inline-block;
-}
-
-.arrow.rotate {
-    transform: rotate(90deg);
-}
-
-.hidden-text {
-    display: none;
-    margin-top: 10px;
-    padding-left: 15px;
-    border-left: 2px solid #d5d5d5;
-}
-
-/* Media Queries for Responsive Design */
+/* Responsive Design */
 @media (max-width: 1024px) {
     .container {
         max-width: 1000px;
@@ -206,6 +184,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 480px) {
+    .name-home {
+        display: none;  /* Hide name as Home button on mobile */
+    }
+
     h1 {
         font-size: 1.8em;
     }
